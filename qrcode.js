@@ -1,6 +1,6 @@
 let QRCode = require('qrcode');
 
-QRCode.toFile('./qrcode.png', 'Chal chal apna kaam kar', 
+QRCode.toFile('./qrcode.png', 'https://www.cancermitr.com/', 
     {
         color: {
             dark: '#000',   // Black dots
