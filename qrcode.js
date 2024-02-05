@@ -2,10 +2,10 @@ let QRCode = require('qrcode');
 
 QRCode.toFile('./qrcode.png', 'Chal chal apna kaam kar', 
     {
-    color: {
-      dark: '#00F',  // Blue dots
-      light: '#0000' // Transparent background
-        }
+        color: {
+            dark: '#000',   // Black dots
+            light: '#FFF'   // White background
+            }
     }, 
     
     function (err) {
@@ -13,4 +13,4 @@ QRCode.toFile('./qrcode.png', 'Chal chal apna kaam kar',
     console.log('done')
     }
     
-);   
+);    
