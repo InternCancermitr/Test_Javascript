@@ -6,6 +6,6 @@ function generateOTP(length){
         
     }
     return otp;
-}
+};
 
-console.log(generateOTP(6))
+console.log(generateOTP(6));
